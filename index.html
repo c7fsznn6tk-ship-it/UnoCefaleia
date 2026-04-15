@@ -15,6 +15,9 @@
         <p class="description">
           Clique no baralho para definir quantas perguntas voce tem direito.
         </p>
+        <button class="study-button" id="open-questions-button" type="button">
+          Acessar perguntas diretamente
+        </button>
       </div>
 
       <div class="play-area">
@@ -97,7 +100,10 @@
 
             <div class="quiz-result is-hidden" id="quiz-result">
               <p class="quiz-result-text" id="quiz-result-text"></p>
-              <button class="quiz-button result-close" id="quiz-result-close" type="button">Fechar</button>
+              <div class="quiz-result-actions">
+                <button class="quiz-button result-next" id="quiz-result-next" type="button">Continuar respondendo</button>
+                <button class="quiz-button result-home" id="quiz-result-home" type="button">Voltar a pagina principal</button>
+              </div>
             </div>
           </div>
         </div>

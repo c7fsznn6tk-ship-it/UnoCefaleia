@@ -112,6 +112,7 @@ const timerMinutesSelect = document.getElementById("timer-minutes");
 const timerDisplay = document.getElementById("timer-display");
 const timerStatus = document.getElementById("timer-status");
 const timerPanel = timerDisplay.parentElement;
+const openQuestionsButton = document.getElementById("open-questions-button");
 const quizPanel = document.getElementById("quiz-panel");
 const quizDialog = document.getElementById("quiz-dialog");
 const quizLoading = document.getElementById("quiz-loading");
@@ -125,7 +126,8 @@ const quizConfirmYes = document.getElementById("quiz-confirm-yes");
 const quizConfirmNo = document.getElementById("quiz-confirm-no");
 const quizResult = document.getElementById("quiz-result");
 const quizResultText = document.getElementById("quiz-result-text");
-const quizResultClose = document.getElementById("quiz-result-close");
+const quizResultNext = document.getElementById("quiz-result-next");
+const quizResultHome = document.getElementById("quiz-result-home");
 
 let revealTimeout;
 let finishAnimationTimeout;
@@ -135,9 +137,12 @@ let currentTimerDuration = Number(timerMinutesSelect.value) * 60;
 let nextTimerDuration = currentTimerDuration;
 let audioContext;
 let questionsBank = [];
-let remainingQuestionIds = [];
 let pendingAnswer = null;
 let activeQuestion = null;
+let quizQueue = [];
+let quizAnsweredCount = 0;
+let quizMode = "skip";
+let awaitingSessionRestartChoice = false;
 
 function getRandomCard() {
   const totalWeight = cards.reduce((sum, card) => sum + card.weight, 0);
@@ -299,7 +304,6 @@ function initializeQuestions() {
   }
 
   questionsBank = parseQuestions(repairMojibake(QUESTIONS_RAW));
-  remainingQuestionIds = questionsBank.map((question) => question.id);
 
   if (!questionsBank.length) {
     quizLoading.textContent = "Nao foi possivel preparar as perguntas.";
@@ -323,24 +327,63 @@ function resetQuizFeedback() {
 function closeQuizPanel() {
   pendingAnswer = null;
   activeQuestion = null;
+  awaitingSessionRestartChoice = false;
   resetQuizFeedback();
   quizPanel.classList.add("is-hidden");
   hideQuizSections();
 }
 
-function getRandomQuestion() {
-  if (!remainingQuestionIds.length) {
-    remainingQuestionIds = questionsBank.map((question) => question.id);
+function shuffleArray(items) {
+  const array = [...items];
+
+  for (let index = array.length - 1; index > 0; index -= 1) {
+    const randomIndex = Math.floor(Math.random() * (index + 1));
+    [array[index], array[randomIndex]] = [array[randomIndex], array[index]];
   }
 
-  const randomIndex = Math.floor(Math.random() * remainingQuestionIds.length);
-  const [questionId] = remainingQuestionIds.splice(randomIndex, 1);
-  return questionsBank.find((question) => question.id === questionId) || questionsBank[0];
+  return array;
+}
+
+function startQuestionSession(mode = "practice") {
+  quizMode = mode;
+  quizQueue = shuffleArray(questionsBank.map((question) => question.id));
+  quizAnsweredCount = 0;
+  awaitingSessionRestartChoice = false;
+}
+
+function getQuestionById(questionId) {
+  return questionsBank.find((question) => question.id === questionId) || null;
+}
+
+function getNextQuizQuestion() {
+  const nextQuestionId = quizQueue.shift();
+  return typeof nextQuestionId === "number" ? getQuestionById(nextQuestionId) : null;
+}
+
+function openNextQuestion() {
+  if (!quizQueue.length) {
+    awaitingSessionRestartChoice = true;
+    hideQuizSections();
+    quizResult.classList.remove("is-hidden");
+    quizResult.classList.add("is-success");
+    quizResult.classList.remove("is-error");
+    quizDialog.classList.remove("is-success", "is-error");
+    quizResultText.textContent = `Voce respondeu as ${quizAnsweredCount} questoes. Deseja recomecar ou voltar a pagina principal?`;
+    quizResultNext.textContent = "Recomecar perguntas";
+    return;
+  }
+
+  const nextQuestion = getNextQuizQuestion();
+
+  if (nextQuestion) {
+    renderQuestion(nextQuestion);
+  }
 }
 
 function renderQuestion(question) {
   activeQuestion = question;
   pendingAnswer = null;
+  awaitingSessionRestartChoice = false;
   quizPanel.classList.remove("is-hidden");
   hideQuizSections();
   resetQuizFeedback();
@@ -375,10 +418,14 @@ function showQuizResult(isCorrect) {
   quizDialog.classList.remove("is-success", "is-error");
   void quizDialog.offsetWidth;
   quizDialog.classList.add(isCorrect ? "is-success" : "is-error");
+  quizResultNext.textContent = "Continuar respondendo";
 
   if (isCorrect) {
     quizQuestionBlock.classList.add("is-hidden");
-    quizResultText.textContent = "Parabens! Resposta correta. Voce ganhou a chance de jogar.";
+    quizAnsweredCount += 1;
+    quizResultText.textContent = quizMode === "skip"
+      ? "Parabens! Resposta correta. Voce ganhou a chance de jogar."
+      : "Parabens! Resposta correta.";
     return;
   }
 
@@ -392,6 +439,7 @@ function showQuizResult(isCorrect) {
     button.classList.toggle("is-correct", isAnswer);
   });
 
+  quizAnsweredCount += 1;
   quizResultText.textContent = `Resposta incorreta. A alternativa correta e ${activeQuestion.correct}.`;
 }
 
@@ -405,7 +453,8 @@ function openSkipChallenge() {
     return;
   }
 
-  renderQuestion(getRandomQuestion());
+  startQuestionSession("skip");
+  openNextQuestion();
 }
 
 function formatTime(totalSeconds) {
@@ -592,8 +641,33 @@ quizConfirmNo.addEventListener("click", () => {
   [...quizOptions.children].forEach((item) => item.classList.remove("selected"));
 });
 
-quizResultClose.addEventListener("click", () => {
+quizResultNext.addEventListener("click", () => {
+  if (awaitingSessionRestartChoice) {
+    startQuestionSession(quizMode);
+    openNextQuestion();
+    return;
+  }
+
+  openNextQuestion();
+});
+
+quizResultHome.addEventListener("click", () => {
   closeQuizPanel();
+});
+
+openQuestionsButton.addEventListener("click", () => {
+  stopTimer();
+  currentTimerDuration = nextTimerDuration;
+  updateTimerVisual(nextTimerDuration, "idle");
+  timerStatus.textContent = "Modo de perguntas aberto diretamente pela pagina principal.";
+
+  if (!questionsBank.length) {
+    openSkipChallenge();
+    return;
+  }
+
+  startQuestionSession("practice");
+  openNextQuestion();
 });
 
 drawButton.addEventListener("click", () => {
