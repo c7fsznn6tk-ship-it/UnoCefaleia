@@ -57,7 +57,7 @@ const cards = [
     displayMode: "text-only",
     icon: "",
     startsTimer: true,
-    weight: 1
+    weight: 3
   },
   {
     color: "Azul",
@@ -69,7 +69,7 @@ const cards = [
     displayMode: "text-only",
     icon: "",
     startsTimer: true,
-    weight: 1
+    weight: 3
   },
   {
     color: "Vermelho/Azul",
@@ -81,7 +81,7 @@ const cards = [
     displayMode: "icon-only",
     icon: "wild",
     startsTimer: true,
-    weight: 1
+    weight: 3
   },
   {
     color: "Vermelho/Azul",
@@ -93,7 +93,7 @@ const cards = [
     displayMode: "has-icon-text",
     icon: "draw4",
     startsTimer: true,
-    weight: 0.35
+    weight: 0.2
   }
 ];
 
