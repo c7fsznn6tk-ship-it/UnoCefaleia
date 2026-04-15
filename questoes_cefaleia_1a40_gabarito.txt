@@ -1,19 +1,19 @@
-QUESTÕES DE CEFALEIA - 40 QUESTÕES SELECIONADAS
+QUESTOES DE CEFALEIA - 40 QUESTOES SELECIONADAS
 
 Arquivo-base: Cefaleias.pdf
 
-Observação: mantive a redação dos enunciados do material e renumerei de 1 a 40.
+Observacao: mantive a redacao dos enunciados do material e renumerei de 1 a 40.
 
 Ao final, segue o gabarito.
 
 ================================================================================
 
-1. Questão 1 (original Q1)
+1. Questao 1 (original Q1)
 
-O tratamento de escolha da cefaleia com características de cefaleia unilateral,
-forte intensidade, associada a lacrimejamento e hiperemia conjuntival, congestão nasal
-e rinorreia, sudorese frontal, miose, rubor facial, ptose e edema palpebral e duração
-limitada é:
+O tratamento de escolha da cefaleia com caracteristicas de cefaleia unilateral,
+forte intensidade, associada a lacrimejamento e hiperemia conjuntival, congestao nasal
+e rinorreia, sudorese frontal, miose, rubor facial, ptose e edema palpebral e duracao
+limitada e:
 A) Dexametasona 10 mg IV lento.
 B) Morfina 2-5 mg IV lento.
 C) Clorpromazina 25 mg IM.
@@ -23,50 +23,50 @@ E) Oxigenoterapia 10–12 L/min, por 20 minutos.
 
 --------------------------------------------------------------------------------
 
-2. Questão 2 (original Q3)
+2. Questao 2 (original Q3)
 
-Mulher, 30 anos de idade, é atendida no PS, referindo dor de cabeça intensa, às
-vezes excruciante, com localização periorbital, associada a sintomas autonômicos
-ipsilaterais e agitação. Tal quadro alterna períodos de dor intensa, com repetição
-frequente dos sintomas durante o dia e remissão completa por meses. Qual é o
-diagnóstico mais provável e a conduta inicial, respectivamente?
+Mulher, 30 anos de idade, e atendida no PS, referindo dor de cabeca intensa, às
+vezes excruciante, com localizacao periorbital, associada a sintomas autonômicos
+ipsilaterais e agitacao. Tal quadro alterna periodos de dor intensa, com repeticao
+frequente dos sintomas durante o dia e remissao completa por meses. Qual e o
+diagnostico mais provável e a conduta inicial, respectivamente?
 A) Enxaqueca com aura; indometacina.
 B) Arterite temporal; corticoide.
-C) Cefaleia tensional; anti-inflamatório e relaxante muscular.
-D) Cefaleia em salvas; inalação de oxigênio com máscara facial 7-10 L/minuto.
+C) Cefaleia tensional; anti-inflamatorio e relaxante muscular.
+D) Cefaleia em salvas; inalacao de oxigênio com máscara facial 7-10 L/minuto.
 
 
 --------------------------------------------------------------------------------
 
-3. Questão 3 (original Q10)
+3. Questao 3 (original Q10)
 
 Homem de 52 anos de idade, tabagista, apresenta há alguns anos crises de forte dor
-de cabeça que se concentram principalmente no olho esquerdo. A cefaleia aparece de 2
-em 2 anos quase sempre nesta época do ano e permanece por cerca de 45 a 60 dias; a
+de cabeca que se concentram principalmente no olho esquerdo. A cefaleia aparece de 2
+em 2 anos quase sempre nesta epoca do ano e permanece por cerca de 45 a 60 dias; a
 dor dura geralmente 1 hora e na maioria das vezes aparece durante a madrugada,
 despertando-o; fica absolutamente "desesperado" quando sente a dor e tem vontade de
-"bater a cabeça na parede". Durante a dor apresenta vermelhidão no olho esquerdo e
-lacrimejamento intenso desse lado. As crises atuais começaram há 15 dias e realizou uma
-tomografia durante um período de crises, que era normal. Considerando a principal
-hipótese diagnóstica, o que é correto afirmar?
+"bater a cabeca na parede". Durante a dor apresenta vermelhidao no olho esquerdo e
+lacrimejamento intenso desse lado. As crises atuais comecaram há 15 dias e realizou uma
+tomografia durante um periodo de crises, que era normal. Considerando a principal
+hipotese diagnostica, o que e correto afirmar?
 A) Devemos prescrever prednisona via oral durante 2 a 3 semanas.
 B) Trata-se de uma cefaleia primária responsiva à indometacina.
 C) As crises intensas devem ser tratadas com morfina endovenosa.
-D) Antidepressivo tricíclico deve melhorar esse tipo de dor de cabeça.
+D) Antidepressivo triciclico deve melhorar esse tipo de dor de cabeca.
 
 
 --------------------------------------------------------------------------------
 
-4. Questão 4 (original Q11)
+4. Questao 4 (original Q11)
 
 Homem, 38 anos, sem comorbidades. Há 2 dias queixa-se de cefaleia intensa, temporal à
-direita, com duração de 15 a 30 minutos, principalmente à noite. Concomitante, há
+direita, com duracao de 15 a 30 minutos, principalmente à noite. Concomitante, há
 hiperemia conjuntival, edema palpebral e sudorese facial. Hoje, acordou com ptose
 palpebral direita. Procurou o pronto atendimento, durante a crise de cefaleia. Exame
-neurológico: orientado em tempo e espaço, ptose palpebral à direita, pupilas isocóricas e
-fotorreagentes, musculatura ocular extrínseca preservada e sem déficits focais. Qual é a
+neurologico: orientado em tempo e espaco, ptose palpebral à direita, pupilas isocoricas e
+fotorreagentes, musculatura ocular extrinseca preservada e sem deficits focais. Qual e a
 conduta mais adequada?
-A) Ressonância magnética de encéfalo.
+A) Ressonância magnetica de encefalo.
 B) Oxigênio 10 L/min + sumatriptano 6 mg SC.
 C) Tomografia de crânio sem contraste.
 D) Dipirona 1 g EV + cetoprofeno 100 mg EV.
@@ -74,66 +74,66 @@ D) Dipirona 1 g EV + cetoprofeno 100 mg EV.
 
 --------------------------------------------------------------------------------
 
-5. Questão 5 (original Q15)
+5. Questao 5 (original Q15)
 
-São típicos da cefaleia em salva (Cluster):
-A) Início gradual, agravado pela atividade física rotineira.
+Sao tipicos da cefaleia em salva (Cluster):
+A) Inicio gradual, agravado pela atividade fisica rotineira.
 B) Unilateral em 70%, bifrontal ou global em 30% dos casos.
-C) Duração de 30 minutos a 7 dias.
+C) Duracao de 30 minutos a 7 dias.
 D) Lacrimejamento ipsilateral e rinorreia.
 E) Paciente prefere ficar em ambiente escuro e silencioso.
 
 
 --------------------------------------------------------------------------------
 
-6. Questão 6 (original Q25)
+6. Questao 6 (original Q25)
 
 Determinado paciente de 42 anos de idade procurou atendimento na unidade de pronto
 atendimento com queixa de cefaleia excruciante, unilateral, principalmente periorbitária,
-associada a vermelhidão ocular, lacrimejamento e rinorreia. Referiu ter apresentado
-episódios semelhantes anteriormente, e o último ocorreu há cerca de cinco meses,
-melhorando somente após oxigenioterapia a 100%.
-Diante da descrição, a hipótese diagnóstica compatível com o quadro é a de
+associada a vermelhidao ocular, lacrimejamento e rinorreia. Referiu ter apresentado
+episodios semelhantes anteriormente, e o ultimo ocorreu há cerca de cinco meses,
+melhorando somente apos oxigenioterapia a 100%.
+Diante da descricao, a hipotese diagnostica compativel com o quadro e a de
 A) migrânea com aura.
 B) cefaleia tensional.
 C) migrânea sem aura.
-D) síndrome dolorosa miofascial.
+D) sindrome dolorosa miofascial.
 E) cefaleia em salvas.
 
 
 --------------------------------------------------------------------------------
 
-7. Questão 7 (original Q32)
+7. Questao 7 (original Q32)
 
-Uma paciente de 38 anos procurou o ambulatório com queixa de surtos recorrentes de
+Uma paciente de 38 anos procurou o ambulatorio com queixa de surtos recorrentes de
 cefaleia. Refere que as crises duram de 15 a 60 minutos, iniciam-se com dor de forte
 intensidade em volta de um dos olhos e se acompanham de lacrimejamento, rinorreia e
-obstrução nasal ipsilateral. As crises têm periodicidade variável, podendo ocorrer várias
+obstrucao nasal ipsilateral. As crises têm periodicidade variável, podendo ocorrer várias
 vezes em um mesmo dia e depois passar alguns meses sem sintomas. Mostrou no celular
 uma foto de seu rosto durante a crise mais recente na qual se percebe ptose e miose no
 olho afetado.
-Qual o diagnóstico mais provável para o caso?
+Qual o diagnostico mais provável para o caso?
 A) Migrânea.
 B) Rinossinusite crônica.
-C) Arterite de células gigantes (arterite temporal).
+C) Arterite de celulas gigantes (arterite temporal).
 D) Neoplasia intracraniana.
 E) Cefaleia em salvas.
 
 
 --------------------------------------------------------------------------------
 
-8. Questão 8 (original Q34)
+8. Questao 8 (original Q34)
 
-Paciente de 50 anos, sem diagnóstico de doenças prévias, consultou por vir apresentando,
-há 3 anos, episódios de cefaleia muito intensa nos primeiros minutos, que ocorrem quase
-sempre na madrugada (fazendo-o despertar), duram em torno de 1 hora e têm remissão
-espontânea, mas retornam cerca de 4 vezes no mesmo dia. Essa condição se repete por
-algumas semanas e, depois, o sintoma desaparece por cerca de 6 meses. A cefaleia é
-unilateral, sempre à esquerda, com episódios de congestão das mucosas nasal e
-conjuntival esquerdas em algumas ocasiões. Por duas vezes, procurou uma Unidade de
-Pronto Atendimento, tendo recebido oxigênio por máscara, com alívio da crise. No momento
-da consulta, encontrava-se assintomático, e o exame físico era normal. Com base nos
-dados, qual o diagnóstico mais provável?
+Paciente de 50 anos, sem diagnostico de doencas previas, consultou por vir apresentando,
+há 3 anos, episodios de cefaleia muito intensa nos primeiros minutos, que ocorrem quase
+sempre na madrugada (fazendo-o despertar), duram em torno de 1 hora e têm remissao
+espontânea, mas retornam cerca de 4 vezes no mesmo dia. Essa condicao se repete por
+algumas semanas e, depois, o sintoma desaparece por cerca de 6 meses. A cefaleia e
+unilateral, sempre à esquerda, com episodios de congestao das mucosas nasal e
+conjuntival esquerdas em algumas ocasiOes. Por duas vezes, procurou uma Unidade de
+Pronto Atendimento, tendo recebido oxigênio por máscara, com alivio da crise. No momento
+da consulta, encontrava-se assintomático, e o exame fisico era normal. Com base nos
+dados, qual o diagnostico mais provável?
 A) Enxaqueca.
 B) Cefaleia em salvas (cluster).
 C) Cefaleia tensional.
@@ -143,63 +143,63 @@ E) Arterite temporal.
 
 --------------------------------------------------------------------------------
 
-9. Questão 9 (original Q38)
+9. Questao 9 (original Q38)
 
-Homem, 42 anos, fumante, tem episódios diários de cefaleia de forte intensidade em
-região supra-orbital à esquerda, com duração de aproximadamente 25 minutos, associada
+Homem, 42 anos, fumante, tem episodios diários de cefaleia de forte intensidade em
+regiao supra-orbital à esquerda, com duracao de aproximadamente 25 minutos, associada
 a lacrimejamento de olho esquerdo. Durante os momentos de dor fica impaciente,
-andando de um lado para outro da casa. Teve períodos de diversos dias com essa dor no
-último ano, seguidos de alguns meses de melhora e recorrência. Sobre este caso:
-A) amitriptilina é uma opção como abortivo para a patologia.
+andando de um lado para outro da casa. Teve periodos de diversos dias com essa dor no
+ultimo ano, seguidos de alguns meses de melhora e recorrência. Sobre este caso:
+A) amitriptilina e uma opcao como abortivo para a patologia.
 B) hipoxemia está frequentemente associada à patologia.
-C) oxigênio é uma opção como abortivo para a cefaleia.
-D) sumatriptano é uma opção como profilático para a patologia.
-E) amitriptilina é uma opção como profilático para a patologia.
+C) oxigênio e uma opcao como abortivo para a cefaleia.
+D) sumatriptano e uma opcao como profilático para a patologia.
+E) amitriptilina e uma opcao como profilático para a patologia.
 
 
 --------------------------------------------------------------------------------
 
-10. Questão 10 (original Q42)
+10. Questao 10 (original Q42)
 
-Homem, 35 anos, procura atendimento médico com queixa de cefaleias fortes, episódicas e
-unilaterais, predominantemente à noite, há 1 semana. As crises são frequentemente
-induzidas pela ingestão de álcool. Hoje, refere dor do lado direito. Exame físico:
+Homem, 35 anos, procura atendimento medico com queixa de cefaleias fortes, episodicas e
+unilaterais, predominantemente à noite, há 1 semana. As crises sao frequentemente
+induzidas pela ingestao de álcool. Hoje, refere dor do lado direito. Exame fisico:
 face: rinorreia, sudorese da fronte e lacrimejamento à direita;
-neurológico: miose e ptose à direita.
-O diagnóstico é:
+neurologico: miose e ptose à direita.
+O diagnostico e:
 A) Migrânea com aura.
 B) Neuralgia do trigêmeo.
-C) Disfunção temporomandibular.
+C) Disfuncao temporomandibular.
 D) Cefaleia em salvas.
 
 
 --------------------------------------------------------------------------------
 
-11. Questão 11 (original Q45)
+11. Questao 11 (original Q45)
 
-Homem, 39 anos, refere crises paroxísticas de cefaleia periorbitária e temporal à
+Homem, 39 anos, refere crises paroxisticas de cefaleia periorbitária e temporal à
 esquerda, há aproximadamente quatro meses. Relata que algumas crises chegam a durar
-quase 3 horas, enquanto outras são rápidas, com cerca de 20 minutos. Chegou a
-apresentar vários episódios em um mesmo dia, sendo que em alguns dias as crises
-ficavam mais espaçadas, mas ocorrendo praticamente sempre nos mesmos horários.
+quase 3 horas, enquanto outras sao rápidas, com cerca de 20 minutos. Chegou a
+apresentar vários episodios em um mesmo dia, sendo que em alguns dias as crises
+ficavam mais espacadas, mas ocorrendo praticamente sempre nos mesmos horários.
 Acompanhando o quadro, relata lacrimejamento ipsilateral e discreta sudorese. A melhor
-forma de tratar as crises agudas desse paciente é com
+forma de tratar as crises agudas desse paciente e com
 A) corticoide intravenoso.
-B) anti-inflamatório não hormonal.
-C) inalação de oxigênio a 100%.
+B) anti-inflamatorio nao hormonal.
+C) inalacao de oxigênio a 100%.
 D) sumatriptano.
 
 
 --------------------------------------------------------------------------------
 
-12. Questão 12 (original Q46)
+12. Questao 12 (original Q46)
 
 Homem de 42 anos de idade procura atendimento em pronto-socorro por crises de
 cefaleia hemicrânia direita há 7 dias, quando mudou turno de trabalho em sua empresa. A
-dor é lancinante, de forte intensidade, com até 4 episódios por dia durando até 1 hora
-cada um. No momento com dor de intensidade 10 (escala 0 a 10). No exame clínico,
-hiperemia conjuntival e sudorese em hemiface, ambos à direita. Pressão arterial = 168 x
-100 mmHg; frequência cardíaca = 110 bpm. Qual é a melhor associação de tratamento
+dor e lancinante, de forte intensidade, com ate 4 episodios por dia durando ate 1 hora
+cada um. No momento com dor de intensidade 10 (escala 0 a 10). No exame clinico,
+hiperemia conjuntival e sudorese em hemiface, ambos à direita. Pressao arterial = 168 x
+100 mmHg; frequência cardiaca = 110 bpm. Qual e a melhor associacao de tratamento
 para controle agudo e crônico para o quadro álgico do paciente?
 A) Tratamento agudo: oxigênio; tratamento crônico: gabapentina.
 B) Tratamento agudo: morfina; tratamento crônico: pregabalina.
@@ -209,12 +209,12 @@ D) Tratamento agudo: sumatriptano nasal; tratamento crônico: verapamil.
 
 --------------------------------------------------------------------------------
 
-13. Questão 13 (original Q47)
+13. Questao 13 (original Q47)
 
 Paciente de 45 anos, sexo masculino, apresenta dor periorbitária de forte intensidade
-direita, com irradiação temporal ipsilateral, em crises e com duração de aproximadamente
-1 hora. Refere associada à dor a presença de lacrimejamento e ptose. Descreve a
-presença de vários episódios de dor, principalmente no começo do ano, e depois melhora
+direita, com irradiacao temporal ipsilateral, em crises e com duracao de aproximadamente
+1 hora. Refere associada à dor a presenca de lacrimejamento e ptose. Descreve a
+presenca de vários episodios de dor, principalmente no comeco do ano, e depois melhora
 das mesmas por vários meses. Qual o tratamento mais adequado para essas crises?
 A) Oxigênio 8 L/min por 20 minutos.
 B) Dipirona 1 g/EV.
@@ -224,49 +224,49 @@ D) Amitriptilina 25 mg/VO.
 
 --------------------------------------------------------------------------------
 
-14. Questão 14 (original Q39)
+14. Questao 14 (original Q39)
 
-Mulher de 23 anos de idade apresenta história de cefaleia, com dor na região
-frontotemporal direita, às vezes envolvendo toda a parte direita da face e da cabeça, com
-duração média de 10 minutos, e cerca de 8 crises ao dia. Relata lacrimejamento e
-hiperemia ocular nas crises. Assinale o diagnóstico mais provável e conduta mais
+Mulher de 23 anos de idade apresenta historia de cefaleia, com dor na regiao
+frontotemporal direita, às vezes envolvendo toda a parte direita da face e da cabeca, com
+duracao media de 10 minutos, e cerca de 8 crises ao dia. Relata lacrimejamento e
+hiperemia ocular nas crises. Assinale o diagnostico mais provável e conduta mais
 adequada:
 A) Cefaleia em salvas; verapamil.
-B) Cefaleia em salvas; tricíclico.
+B) Cefaleia em salvas; triciclico.
 C) Enxaqueca com disautonomia; propranolol.
-D) Hemicrania paroxística; indometacina.
+D) Hemicrania paroxistica; indometacina.
 E) Neuralgia trigeminal; carbamazepina.
 
 
 --------------------------------------------------------------------------------
 
-15. Questão 15 (original Q6)
+15. Questao 15 (original Q6)
 
-O diagnóstico de cefaleia tensional é pautado na entrevista médica, pois o exame clínico
-neurológico geralmente não apresenta alterações significativas. Quanto às
-características clínicas da cefaleia tensional, assinale a alternativa correta.
+O diagnostico de cefaleia tensional e pautado na entrevista medica, pois o exame clinico
+neurologico geralmente nao apresenta alteracOes significativas. Quanto às
+caracteristicas clinicas da cefaleia tensional, assinale a alternativa correta.
 A) A crise costuma ser unilateral, estar relacionada a estresse emocional e estar
 associada a náuseas, a vômitos e à fotofobia.
 B) A dor tem caráter forte e latejante, cursando com sensibilidade aumentada na mesma
-região e é agravada pela mastigação.
-C) É mais comum em homens e está associada à hiperemia ocular e ao lacrimejamento
+regiao e e agravada pela mastigacao.
+C) e mais comum em homens e está associada à hiperemia ocular e ao lacrimejamento
 em suas crises.
-D) Costuma provocar dor súbita de forte intensidade, associada a nistagmo e à hipertonia
+D) Costuma provocar dor subita de forte intensidade, associada a nistagmo e à hipertonia
 da musculatura pericraniana.
-E) É o tipo de cefaleia primária mais frequente na prática médica, com característica de
+E) e o tipo de cefaleia primária mais frequente na prática medica, com caracteristica de
 dor em peso, bilateral, e piora progressiva ao longo do dia.
 
 
 --------------------------------------------------------------------------------
 
-16. Questão 16 (original Q13)
+16. Questao 16 (original Q13)
 
 Homem, 41 anos de idade, procura atendimento ambulatorial porque há 2 anos tem
 cefaleia frontotemporal bilateral, em peso, de moderada intensidade, que dura cerca de
-10 horas, sem sintomas associados. Os episódios se tornaram cada vez mais frequentes e
-estão ocorrendo cerca de 20 dias por mês. Ao exame clínico, nota-se hipertonia muscular
-no trapézio e pontos de gatilho de dor na cervical. Entre os tratamentos profiláticos
-propostos abaixo, o melhor para este paciente é:
+10 horas, sem sintomas associados. Os episodios se tornaram cada vez mais frequentes e
+estao ocorrendo cerca de 20 dias por mês. Ao exame clinico, nota-se hipertonia muscular
+no trapezio e pontos de gatilho de dor na cervical. Entre os tratamentos profiláticos
+propostos abaixo, o melhor para este paciente e:
 A) Amitriptilina.
 B) Indometacina.
 C) Carbamazepina.
@@ -276,67 +276,67 @@ E) Sumatriptano.
 
 --------------------------------------------------------------------------------
 
-17. Questão 17 (original Q28)
+17. Questao 17 (original Q28)
 
-Para o diagnóstico de quadro de cefaleia tipo tensão episódica, é necessário que o
-paciente apresente, ao menos, dez episódios de cefaleia, ocorrendo em menos de um
-dia/mês em média (menos de 12 dias/ano) e
-A) piora durante a realização de atividade física rotineira, como subir escadas.
-B) localização unilateral.
-C) presença de foto ou fonofobia.
-D) presença de náusea e vômitos.
+Para o diagnostico de quadro de cefaleia tipo tensao episodica, e necessário que o
+paciente apresente, ao menos, dez episodios de cefaleia, ocorrendo em menos de um
+dia/mês em media (menos de 12 dias/ano) e
+A) piora durante a realizacao de atividade fisica rotineira, como subir escadas.
+B) localizacao unilateral.
+C) presenca de foto ou fonofobia.
+D) presenca de náusea e vômitos.
 
 
 --------------------------------------------------------------------------------
 
-18. Questão 18 (original Q44)
+18. Questao 18 (original Q44)
 
 Mulher, 44 anos, procura atendimento em pronto-socorro com queixa de cefaleia
 holocraniana, em aperto, de intensidade progressiva, há 3 dias. No momento, considera a
-dor de forte intensidade 8/10. Despertou na última noite pela dor. Hoje pela manhã, ao
-fazer atividade física, teve novamente piora da dor, que a motivou a procurar o pronto
-socorro. Nega comorbidades. Exame neurológico normal. Nesse caso, o diagnóstico e a
-melhor conduta são, respectivamente:
+dor de forte intensidade 8/10. Despertou na ultima noite pela dor. Hoje pela manha, ao
+fazer atividade fisica, teve novamente piora da dor, que a motivou a procurar o pronto
+socorro. Nega comorbidades. Exame neurologico normal. Nesse caso, o diagnostico e a
+melhor conduta sao, respectivamente:
 A) Cefaleia em salvas – oxigênio em altas doses. Se refratária: bloqueador de canal de cálcio.
-B) Cefaleia tensional – analgésico simples e anti-inflamatório. Se refratária: ciclobenzaprina.
-C) Cefaleia sem etiologia clara – analgésico simples e exame de imagem craniana.
-D) Enxaqueca – analgésico simples e anti-inflamatório. Se refratária: triptanos e/ou dexametasona.
-E) Cefaleia tensional – analgésico simples e anti-inflamatório. Se refratária: tramadol ou morfina.
+B) Cefaleia tensional – analgesico simples e anti-inflamatorio. Se refratária: ciclobenzaprina.
+C) Cefaleia sem etiologia clara – analgesico simples e exame de imagem craniana.
+D) Enxaqueca – analgesico simples e anti-inflamatorio. Se refratária: triptanos e/ou dexametasona.
+E) Cefaleia tensional – analgesico simples e anti-inflamatorio. Se refratária: tramadol ou morfina.
 
 
 --------------------------------------------------------------------------------
 
-19. Questão 19 (original Q53)
+19. Questao 19 (original Q53)
 
-Mulher de 22 anos comparece à Unidade Básica de Saúde com queixa de “piora da dor de
-cabeça”. Durante a consulta com o médico, relata história de cefaleia há 3 anos. A cefaleia
+Mulher de 22 anos comparece à Unidade Básica de Saude com queixa de “piora da dor de
+cabeca”. Durante a consulta com o medico, relata historia de cefaleia há 3 anos. A cefaleia
 costumava ser de fraca intensidade, bilateral, ocorrendo 2 vezes por semana, com
-duração de aproximadamente 1 hora e sem outros sintomas. Cedia com uso de
+duracao de aproximadamente 1 hora e sem outros sintomas. Cedia com uso de
 paracetamol 500 mg. Há 4 meses a dor passou a ser de moderada intensidade, aumentou
 a frequência para 5 vezes por semana, sem melhora com uso de paracetamol 500 mg,
-sendo necessário dobrar a dose deste medicamento após 6 horas. As demais
-características da dor estão mantidas e o exame físico está normal. A conduta adequada
-nesse caso é:
+sendo necessário dobrar a dose deste medicamento apos 6 horas. As demais
+caracteristicas da dor estao mantidas e o exame fisico está normal. A conduta adequada
+nesse caso e:
 A) suspender o paracetamol por 2 meses.
-B) associar cafeína ao paracetamol 500 mg.
+B) associar cafeina ao paracetamol 500 mg.
 C) substituir o paracetamol por dipirona 500 mg.
 D) aumentar a dose do paracetamol para 750 mg.
 
 
 --------------------------------------------------------------------------------
 
-20. Questão 20 (original Q22)
+20. Questao 20 (original Q22)
 
-Mulher de 30 anos procura atendimento no posto de saúde devido a episódios de cefaleia
-holocraniana em aperto, desde os 20 anos. Durante os episódios, a paciente deixa de
+Mulher de 30 anos procura atendimento no posto de saude devido a episodios de cefaleia
+holocraniana em aperto, desde os 20 anos. Durante os episodios, a paciente deixa de
 fazer atividades cotidianas, assim como prefere ficar em seu quarto com janela fechada e
-sem barulho. Ao tentar fazer atividade física durante os episódios, relata piora dos
-sintomas com dor pulsátil em região temporal. Nega vômitos durante os episódios. Se não
-tomar analgésicos, a paciente refere que fica até dois dias com dor. Faz uso de
-paracetamol 1 grama durante os episódios e, em algumas ocasiões, faz uso deste
-medicamento mais de duas vezes ao dia. Nos últimos meses, apresenta em média 8
-crises ao mês. É portadora de asma e tem exame físico e neurológico normais.
-Qual das medicações a seguir deve ser utilizada na paciente acima para diminuir a
+sem barulho. Ao tentar fazer atividade fisica durante os episodios, relata piora dos
+sintomas com dor pulsátil em regiao temporal. Nega vômitos durante os episodios. Se nao
+tomar analgesicos, a paciente refere que fica ate dois dias com dor. Faz uso de
+paracetamol 1 grama durante os episodios e, em algumas ocasiOes, faz uso deste
+medicamento mais de duas vezes ao dia. Nos ultimos meses, apresenta em media 8
+crises ao mês. e portadora de asma e tem exame fisico e neurologico normais.
+Qual das medicacOes a seguir deve ser utilizada na paciente acima para diminuir a
 ocorrência de crises de cefaleia?
 A) Topiramato.
 B) Naratriptano.
@@ -346,33 +346,33 @@ D) Dipirona.
 
 --------------------------------------------------------------------------------
 
-21. Questão 21 (original Q8)
+21. Questao 21 (original Q8)
 
 Homem de 28 anos de idade apresenta há 2 anos cefaleia uma vez por semana de
 forte intensidade, unilateral, pulsátil, com foto e fonofobia e acompanhada por náuseas.
-Nega fenômenos visuais ou somestésicos. Há 6 meses associou outro tipo de cefaleia
+Nega fenômenos visuais ou somestesicos. Há 6 meses associou outro tipo de cefaleia
 quase diariamente, bilateral, de fraca a moderada intensidade, em aperto, sem outros
-sintomas. Faz uso diário de dipirona e cetoprofeno e nos momentos de exacerbação da
-dor usa sumatriptano. Quais são os diagnósticos desse paciente?
+sintomas. Faz uso diário de dipirona e cetoprofeno e nos momentos de exacerbacao da
+dor usa sumatriptano. Quais sao os diagnosticos desse paciente?
 A) Cefaleia tensional e enxaqueca com aura.
-B) Enxaqueca com aura e cefaleia por abuso de medicações.
-C) Enxaqueca sem aura e cefaleia por abuso de medicações.
+B) Enxaqueca com aura e cefaleia por abuso de medicacOes.
+C) Enxaqueca sem aura e cefaleia por abuso de medicacOes.
 D) Cefaleia tensional e enxaqueca sem aura.
 
 
 --------------------------------------------------------------------------------
 
-22. Questão 22 (original Q9)
+22. Questao 22 (original Q9)
 
-Mulher de 23 anos de idade vem ao Pronto-Socorro com cefaleia contínua há quatro dias.
+Mulher de 23 anos de idade vem ao Pronto-Socorro com cefaleia continua há quatro dias.
 A dor inicialmente era temporal esquerda de moderada intensidade, mas hoje passou a
 ser holocraniana, de forte intensidade, e associada a náuseas e fotofobia. Nestes quatro
-dias, medicou-se apenas com dipirona. Refere que tem cefaleia com características
-semelhantes, mas de fraca intensidade, pelo menos duas a três vezes por mês. Não usa
-nenhuma medicação contínua. Sem antecedentes patológicos relevantes. O exame clínico
-(incluindo o exame neurológico) é normal. Na chegada ao Pronto-Socorro recebeu
-dipirona, cetoprofeno e metoclopramida endovenosa, sem melhora após duas horas. Qual
-alternativa representa a melhor opção terapêutica?
+dias, medicou-se apenas com dipirona. Refere que tem cefaleia com caracteristicas
+semelhantes, mas de fraca intensidade, pelo menos duas a três vezes por mês. Nao usa
+nenhuma medicacao continua. Sem antecedentes patologicos relevantes. O exame clinico
+(incluindo o exame neurologico) e normal. Na chegada ao Pronto-Socorro recebeu
+dipirona, cetoprofeno e metoclopramida endovenosa, sem melhora apos duas horas. Qual
+alternativa representa a melhor opcao terapêutica?
 A) Morfina.
 B) Metilprednisolona.
 C) Tramadol.
@@ -381,13 +381,13 @@ D) Clorpromazina.
 
 --------------------------------------------------------------------------------
 
-23. Questão 23 (original Q17)
+23. Questao 23 (original Q17)
 
-São fármacos indicados para tratamento profilático da enxaqueca:
+Sao fármacos indicados para tratamento profilático da enxaqueca:
 I. Topiramato.
 II. Amitriptilina.
-III. Divalproato de sódio.
-Quais estão corretos?
+III. Divalproato de sodio.
+Quais estao corretos?
 A) Apenas I e II.
 B) Apenas I e III.
 C) Apenas II e III.
@@ -396,17 +396,17 @@ D) I, II e III.
 
 --------------------------------------------------------------------------------
 
-24. Questão 24 (original Q21)
+24. Questao 24 (original Q21)
 
 Paciente, 30 anos, feminino, procura atendimento em UPA devido a quadro de cefaleia. A
 paciente apresenta crises de cefaleia desde os 15 anos, algumas vezes incapacitantes,
 preferindo locais mais calmos e com pouca luminosidade, deixando de fazer atividades de
-rotina quando está com dor de cabeça. Algumas das crises são associadas com náuseas e
+rotina quando está com dor de cabeca. Algumas das crises sao associadas com náuseas e
 vômitos. Ela procura o atendimento com crise semelhante, com vômitos, iniciada há
-aproximadamente 20 horas, porém sem apresentar melhora com o uso de analgésicos
-que usa de rotina. Nega outras queixas ou condições médicas relevantes. Exame físico e
-neurológico sem alterações. Pressão arterial 110x70 mmHg, pulso 90 batimentos por
-minuto. Qual a melhor conduta farmacológica para essa paciente, no momento?
+aproximadamente 20 horas, porem sem apresentar melhora com o uso de analgesicos
+que usa de rotina. Nega outras queixas ou condicOes medicas relevantes. Exame fisico e
+neurologico sem alteracOes. Pressao arterial 110x70 mmHg, pulso 90 batimentos por
+minuto. Qual a melhor conduta farmacologica para essa paciente, no momento?
 A) Dipirona 1 grama via oral.
 B) Tramadol 100 mg endovenoso.
 C) Dexametasona 10 mg endovenoso.
@@ -415,18 +415,18 @@ D) Metoclopramida 10 mg endovenoso.
 
 --------------------------------------------------------------------------------
 
-25. Questão 25 (original Q23)
+25. Questao 25 (original Q23)
 
-Mulher de 40 anos é atendida no ambulatório com queixa de cefaleia. Relata que o quadro
-iniciou-se na adolescência, inicialmente no período menstrual. Sempre foi caracterizado
-por dor em lado direito da cabeça, associada a náuseas e fotofobia, com duração de 3 a 8
-horas. Conseguia lidar bem com isso até cerca de 3 meses, quando recebeu diagnóstico
-de esclerose sistêmica durante investigação de desconforto em mãos associado a palidez
-local seguida de arroxeamento e vermelhidão. Refere quadro de tristeza após essa
-descoberta, mas nega alterações do sono, alimentação ou perda de interesse por
-atividades prazerosas. Entretanto, relata que a frequência das dores de cabeça passou a
+Mulher de 40 anos e atendida no ambulatorio com queixa de cefaleia. Relata que o quadro
+iniciou-se na adolescência, inicialmente no periodo menstrual. Sempre foi caracterizado
+por dor em lado direito da cabeca, associada a náuseas e fotofobia, com duracao de 3 a 8
+horas. Conseguia lidar bem com isso ate cerca de 3 meses, quando recebeu diagnostico
+de esclerose sistêmica durante investigacao de desconforto em maos associado a palidez
+local seguida de arroxeamento e vermelhidao. Refere quadro de tristeza apos essa
+descoberta, mas nega alteracOes do sono, alimentacao ou perda de interesse por
+atividades prazerosas. Entretanto, relata que a frequência das dores de cabeca passou a
 ser a cada 2 ou 3 semanas e tem interesse em fazer uso de profilaxia medicamentosa.
-Qual das medicações abaixo é mais apropriada para esta paciente?
+Qual das medicacOes abaixo e mais apropriada para esta paciente?
 A) Verapamil.
 B) Propranolol.
 C) Amitriptilina.
@@ -435,13 +435,13 @@ D) Sumatriptano.
 
 --------------------------------------------------------------------------------
 
-26. Questão 26 (original Q30)
+26. Questao 26 (original Q30)
 
-Adolescente de 12 anos, com obesidade e asma, teve confirmado o diagnóstico de
-enxaqueca (migrânea). Nos últimos meses, as crises tornaram-se recorrentes e, após
-avaliação clínica, o paciente preencheu os critérios da ICHD (The International
+Adolescente de 12 anos, com obesidade e asma, teve confirmado o diagnostico de
+enxaqueca (migrânea). Nos ultimos meses, as crises tornaram-se recorrentes e, apos
+avaliacao clinica, o paciente preencheu os criterios da ICHD (The International
 Classification of Headache Disorders) para tratamento profilático. Que fármaco, dentre os
-abaixo, é o mais indicado?
+abaixo, e o mais indicado?
 A) Flunarizina.
 B) Propranolol.
 C) Amitriptilina.
@@ -450,62 +450,62 @@ D) Lamotrigina.
 
 --------------------------------------------------------------------------------
 
-27. Questão 27 (original Q41)
+27. Questao 27 (original Q41)
 
 Homem de 57 anos, hipertenso, apresenta cefaleia latejante no hemicrânio direito há dois
 anos. Queixa-se ainda de fotofobia e fonofobia, náuseas e tontura acompanhando o
 quadro álgico. A cefaleia dura de 1 a 2 horas, às vezes ocorre por dias seguidos. Fundo de
-olho não mostrou papiledema, atrofia ou neurite, mas há alteração que o médico não
-soube identificar. O diagnóstico mais provável e a conduta correta são, nessa ordem,
-A) cefaleia relacionada à hipertensão arterial; tratar hipertensão arterial.
+olho nao mostrou papiledema, atrofia ou neurite, mas há alteracao que o medico nao
+soube identificar. O diagnostico mais provável e a conduta correta sao, nessa ordem,
+A) cefaleia relacionada à hipertensao arterial; tratar hipertensao arterial.
 B) migrânea; prescrever triptano.
-C) hemicrania contínua; prescrever indometacina.
+C) hemicrania continua; prescrever indometacina.
 D) variante de cefaleia tensional; prescrever amitriptilina.
 
 
 --------------------------------------------------------------------------------
 
-28. Questão 28 (original Q43)
+28. Questao 28 (original Q43)
 
 Mulher, 35 anos de idade, procura pronto atendimento com dor em hemicrânio direito,
 pulsátil, de forte intensidade, acompanhada de náuseas/vômitos, foto e fonofobia há 6
-horas. Refere episódios prévios de cefaleia semelhantes ao atual. Nega uso de medicações
-contraceptivas. O exame neurológico é normal. Trata-se de:
-A) Cefaleia tensional. Tomografia de crânio é mandatória.
-B) Enxaqueca. Tomografia de crânio é mandatória.
-C) Enxaqueca. Não há necessidade de exame de imagem.
-D) Cefaleia tensional. Não há necessidade de exame de imagem.
-E) Cefaleia secundária. Tomografia de crânio é mandatória.
+horas. Refere episodios previos de cefaleia semelhantes ao atual. Nega uso de medicacOes
+contraceptivas. O exame neurologico e normal. Trata-se de:
+A) Cefaleia tensional. Tomografia de crânio e mandatoria.
+B) Enxaqueca. Tomografia de crânio e mandatoria.
+C) Enxaqueca. Nao há necessidade de exame de imagem.
+D) Cefaleia tensional. Nao há necessidade de exame de imagem.
+E) Cefaleia secundária. Tomografia de crânio e mandatoria.
 
 
 --------------------------------------------------------------------------------
 
-29. Questão 29 (original Q48)
+29. Questao 29 (original Q48)
 
-Paciente do sexo feminino com 24 anos de idade relata 6 anos de evolução de episódios
+Paciente do sexo feminino com 24 anos de idade relata 6 anos de evolucao de episodios
 semanais de cefaleia hemicraniana à esquerda ou direita, de forte intensidade, pulsátil,
-com duração de até 24 horas e associada a vômitos, fotofobia e fonofobia. Relata
-escotomas precedendo a cefaleia. Atualmente faz uso de paracetamol com alívio parcial
-dos sintomas. Considerando o diagnóstico mais provável, assinale a assertiva CORRETA:
-A) Os triptanos devem ser administrados após o fim dos escotomas e no início da cefaleia.
-B) Não existem medidas não farmacológicas eficazes no tratamento da condição.
-C) A toxina botulínica é a alternativa terapêutica eficaz na enxaqueca episódica.
-D) A incidência da doença é semelhante entre homens e mulheres.
-E) Esta é a causa mais comum de cefaleia.
+com duracao de ate 24 horas e associada a vômitos, fotofobia e fonofobia. Relata
+escotomas precedendo a cefaleia. Atualmente faz uso de paracetamol com alivio parcial
+dos sintomas. Considerando o diagnostico mais provável, assinale a assertiva CORRETA:
+A) Os triptanos devem ser administrados apos o fim dos escotomas e no inicio da cefaleia.
+B) Nao existem medidas nao farmacologicas eficazes no tratamento da condicao.
+C) A toxina botulinica e a alternativa terapêutica eficaz na enxaqueca episodica.
+D) A incidência da doenca e semelhante entre homens e mulheres.
+E) Esta e a causa mais comum de cefaleia.
 
 
 --------------------------------------------------------------------------------
 
-30. Questão 30 (original Q60)
+30. Questao 30 (original Q60)
 
-Uma mulher com 28 anos de idade procura a Unidade Básica de Saúde por cefaleia
+Uma mulher com 28 anos de idade procura a Unidade Básica de Saude por cefaleia
 têmporo-parietal esquerda, pulsátil, de moderada intensidade (escala de dor 5/10), com
-início há 8 horas, associada a náuseas e fotofobia. A paciente refere apresentar episódios
+inicio há 8 horas, associada a náuseas e fotofobia. A paciente refere apresentar episodios
 semelhantes há cerca de 5 anos e ressalta que, há um ano, as dores pioraram e os
-episódios se tornaram mais frequentes, ocorrendo cerca de uma vez por semana,
-relacionados a situações estressantes no emprego. A paciente faz uso de dipirona e
-paracetamol, sem alívio completo das dores e nega uso de outras medicações. Ao exame
-físico, apresenta-se sem alterações. Nessa situação, qual medicamento usado na profilaxia
+episodios se tornaram mais frequentes, ocorrendo cerca de uma vez por semana,
+relacionados a situacOes estressantes no emprego. A paciente faz uso de dipirona e
+paracetamol, sem alivio completo das dores e nega uso de outras medicacOes. Ao exame
+fisico, apresenta-se sem alteracOes. Nessa situacao, qual medicamento usado na profilaxia
 para essa paciente?
 A) Ergotamina.
 B) Fluoxetina.
@@ -515,189 +515,189 @@ D) Topiramato.
 
 --------------------------------------------------------------------------------
 
-31. Questão 31 (original Q27)
+31. Questao 31 (original Q27)
 
 Uma paciente de 25 anos, portadora de enxaqueca desde a puberdade, observou aumento
-da frequência das crises, o que relacionava à tensão durante a preparação para o
-concurso da residência médica. Passou a usar paracetamol-codeína com frequência quase
-diária nos últimos seis meses. Há 20 dias, a cefaleia se tornou praticamente contínua e
-não está melhorando com o aumento da dose dos analgésicos. O exame neurológico é
-totalmente normal e não há outros sintomas sistêmicos. Qual seria a melhor conduta
+da frequência das crises, o que relacionava à tensao durante a preparacao para o
+concurso da residência medica. Passou a usar paracetamol-codeina com frequência quase
+diária nos ultimos seis meses. Há 20 dias, a cefaleia se tornou praticamente continua e
+nao está melhorando com o aumento da dose dos analgesicos. O exame neurologico e
+totalmente normal e nao há outros sintomas sistêmicos. Qual seria a melhor conduta
 neste momento?
-A) Suspender imediatamente o uso do paracetamol-codeína.
-B) Internar em regime de urgência para realizar ressonância magnética de encéfalo.
+A) Suspender imediatamente o uso do paracetamol-codeina.
+B) Internar em regime de urgência para realizar ressonância magnetica de encefalo.
 C) Prescrever um curso de sete dias de prednisona.
 D) Proibir, em definitivo, o uso de opioides para o tratamento da enxaqueca.
-E) Rever o diagnóstico de migrânea, pois a evolução está incompatível.
+E) Rever o diagnostico de migrânea, pois a evolucao está incompativel.
 
 
 --------------------------------------------------------------------------------
 
-32. Questão 32 (original Q24)
+32. Questao 32 (original Q24)
 
 Assinale a assertiva correta sobre cefaleia.
 A) A resposta a antagonistas do receptor da serotonina ou a cetorolaco pode ser
-considerada um fator tranquilizador em relação a causas graves de cefaleia.
-B) Cefaleia em trovoada e cefaleia desencadeada por exercício ou por manobra de
-Valsalva são sinais de alarme em cefaleia.
-C) O achado de hipertensão arterial em um paciente que vem à Emergência por cefaleia é
+considerada um fator tranquilizador em relacao a causas graves de cefaleia.
+B) Cefaleia em trovoada e cefaleia desencadeada por exercicio ou por manobra de
+Valsalva sao sinais de alarme em cefaleia.
+C) O achado de hipertensao arterial em um paciente que vem à Emergência por cefaleia e
 fator que afasta causas graves de cefaleia.
 D) Pacientes vivendo com HIV, desde que sob tratamento regular, ao apresentarem
-cefaleia nova, não requerem investigação adicional.
+cefaleia nova, nao requerem investigacao adicional.
 
 
 --------------------------------------------------------------------------------
 
-33. Questão 33 (original Q49)
+33. Questao 33 (original Q49)
 
-Em relação às cefaleias secundárias, assinale a opção CORRETA.
-A) A cefaleia decorrente de tumor cerebral é constante, não piora com esforço físico e
-nunca é acompanhada de náusea e vômitos.
+Em relacao às cefaleias secundárias, assinale a opcao CORRETA.
+A) A cefaleia decorrente de tumor cerebral e constante, nao piora com esforco fisico e
+nunca e acompanhada de náusea e vômitos.
 B) A cefaleia aguda, intensa, com rigidez de nuca e sem febre sugere hemorragia
-subaracnóidea e deve ser sempre um sinal de alerta.
-C) Alterações psiquiátricas com distúrbio de humor e ansiedade são causas frequentes de
-cefaleia e não necessitam de exames de imagem.
-D) A arterite temporal é um distúrbio inflamatório caracterizado por cefaleia geralmente em
-região temporal, com hipersensibilidade de couro cabeludo, claudicação de mandíbula e é
-característico em pacientes jovens abaixo de 30 anos.
-E) Na meningite, a cefaleia é aguda e intensa, acompanhada de rigidez de nuca e febre.
-Com a presença desses sinais e sintomas não se faz necessário a realização de coleta de
-líquor através da punção lombar, uma vez que já se tem o diagnóstico.
+subaracnoidea e deve ser sempre um sinal de alerta.
+C) AlteracOes psiquiátricas com disturbio de humor e ansiedade sao causas frequentes de
+cefaleia e nao necessitam de exames de imagem.
+D) A arterite temporal e um disturbio inflamatorio caracterizado por cefaleia geralmente em
+regiao temporal, com hipersensibilidade de couro cabeludo, claudicacao de mandibula e e
+caracteristico em pacientes jovens abaixo de 30 anos.
+E) Na meningite, a cefaleia e aguda e intensa, acompanhada de rigidez de nuca e febre.
+Com a presenca desses sinais e sintomas nao se faz necessário a realizacao de coleta de
+liquor atraves da puncao lombar, uma vez que já se tem o diagnostico.
 
 
 --------------------------------------------------------------------------------
 
-34. Questão 34 (original Q29)
+34. Questao 34 (original Q29)
 
-Homem, 89 anos, refere cefaleia temporal bilateral há 3 meses, que não o desperta
-durante a noite. Não é responsiva a analgésicos comuns e é acompanhada por
-sensibilidade do couro cabeludo ao pentear os cabelos, além de fadiga dos músculos da
-mastigação. Houve emagrecimento de 4 kg neste período. Exames laboratoriais: Hb = 11
+Homem, 89 anos, refere cefaleia temporal bilateral há 3 meses, que nao o desperta
+durante a noite. Nao e responsiva a analgesicos comuns e e acompanhada por
+sensibilidade do couro cabeludo ao pentear os cabelos, alem de fadiga dos musculos da
+mastigacao. Houve emagrecimento de 4 kg neste periodo. Exames laboratoriais: Hb = 11
 g/dL e VHS = 115 mm/h na 1ª hora. Pode-se afirmar que:
-A) este tipo de cefaleia tem caráter recorrente e melhora com a administração de
+A) este tipo de cefaleia tem caráter recorrente e melhora com a administracao de
 oxigênio por cateter nasal ou máscara.
-B) a melhora clínica acentuada com uso de corticosteróide representa um dado adicional
-para embasar o diagnóstico deste paciente.
-C) tumor de base de crânio com hipertensão intracraniana é o diagnóstico principal
-considerando a refratariedade da dor e a presença de sintomas constitucionais.
-D) a apresentação descrita é sugestiva de neuralgia do trigêmeo devido à alteração da
-sensibilidade do couro cabeludo e por não responder a analgésicos comuns.
+B) a melhora clinica acentuada com uso de corticosteroide representa um dado adicional
+para embasar o diagnostico deste paciente.
+C) tumor de base de crânio com hipertensao intracraniana e o diagnostico principal
+considerando a refratariedade da dor e a presenca de sintomas constitucionais.
+D) a apresentacao descrita e sugestiva de neuralgia do trigêmeo devido à alteracao da
+sensibilidade do couro cabeludo e por nao responder a analgesicos comuns.
 
 
 --------------------------------------------------------------------------------
 
-35. Questão 35 (original Q19)
+35. Questao 35 (original Q19)
 
-Mulher, 76 anos de idade, procura atendimento na UBS por episódios de dor intensa em
-hemiface esquerda, principalmente em região maxilar e de mandíbula, graduando até
-8/10 na escala de dor. O quadro se repete há 3 anos, associado a sensação de choques e
-é precipitado pela mastigação ou frio. Tem hipertensão arterial sistêmica, em uso de
+Mulher, 76 anos de idade, procura atendimento na UBS por episodios de dor intensa em
+hemiface esquerda, principalmente em regiao maxilar e de mandibula, graduando ate
+8/10 na escala de dor. O quadro se repete há 3 anos, associado a sensacao de choques e
+e precipitado pela mastigacao ou frio. Tem hipertensao arterial sistêmica, em uso de
 hidroclorotiazida e enalapril. Ao exame, apresenta-se em bom estado geral, com sinais
-vitais estáveis, com alodínia térmica em hemiface esquerda. Demais exames segmentares
-sem alterações. O exame complementar mais adequado para diagnóstico etiológico nesse
-caso é:
-A) Ressonância magnética de crânio.
+vitais estáveis, com alodinia termica em hemiface esquerda. Demais exames segmentares
+sem alteracOes. O exame complementar mais adequado para diagnostico etiologico nesse
+caso e:
+A) Ressonância magnetica de crânio.
 B) Tomografia computadorizada de crânio.
 C) Eletroencefalograma.
-D) Biópsia da artéria temporal.
+D) Biopsia da arteria temporal.
 
 
 --------------------------------------------------------------------------------
 
-36. Questão 36 (original Q31)
+36. Questao 36 (original Q31)
 
 Paciente feminina, de 14 anos, consultou por cefaleia recorrente e náuseas matinais, com
-piora progressiva do equilíbrio, quadro iniciado há 2 semanas. A conduta imediata mais
-recomendada é realizar:
-A) ressonância magnética de crânio, pela possibilidade de ser uma neoplasia de
-hemisfério cerebral.
-B) tomografia computadorizada de crânio, para pesquisar possível massa expansiva no
+piora progressiva do equilibrio, quadro iniciado há 2 semanas. A conduta imediata mais
+recomendada e realizar:
+A) ressonância magnetica de crânio, pela possibilidade de ser uma neoplasia de
+hemisferio cerebral.
+B) tomografia computadorizada de crânio, para pesquisar possivel massa expansiva no
 sistema nervoso central.
-C) ressonância magnética de crânio, para investigar possível alteração nos ouvidos médio
-e interno responsáveis pelo sistema do equilíbrio.
-D) punção lombar para diagnóstico, por haver evidências clínicas de hipertensão
+C) ressonância magnetica de crânio, para investigar possivel alteracao nos ouvidos medio
+e interno responsáveis pelo sistema do equilibrio.
+D) puncao lombar para diagnostico, por haver evidências clinicas de hipertensao
 intracraniana.
 
 
 --------------------------------------------------------------------------------
 
-37. Questão 37 (original Q55)
+37. Questao 37 (original Q55)
 
-Criança de seis anos apresenta há duas semanas quadro de cefaleia holocraniana que
+Crianca de seis anos apresenta há duas semanas quadro de cefaleia holocraniana que
 vem piorando progressivamente, muitas vezes acordando à noite pela dor. Há dois dias,
-apresenta náuseas e vômitos (três episódios ao dia). A mãe refere história familiar para
-enxaqueca. Ao exame, a criança está em bom estado geral; FC = 85 bpm; PA = 110 x 60
-mmHg; sem alterações aos exames cardiológico, respiratório e abdominal. O exame de
-fundo de olho evidenciou papiledema. A principal hipótese diagnóstica e as alterações que
-poderiam ser encontradas ao exame neurológico são, respectivamente:
-A) Glioma; déficit neurológico focal e afasia.
+apresenta náuseas e vômitos (três episodios ao dia). A mae refere historia familiar para
+enxaqueca. Ao exame, a crianca está em bom estado geral; FC = 85 bpm; PA = 110 x 60
+mmHg; sem alteracOes aos exames cardiologico, respiratorio e abdominal. O exame de
+fundo de olho evidenciou papiledema. A principal hipotese diagnostica e as alteracOes que
+poderiam ser encontradas ao exame neurologico sao, respectivamente:
+A) Glioma; deficit neurologico focal e afasia.
 B) Astrocitoma cerebelar; ataxia e disdiadococinesia.
-C) Enxaqueca; fotofobia e déficit neurológico focal pós-crise.
-D) Infecção de sistema nervoso central; irritação meníngea e convulsão.
+C) Enxaqueca; fotofobia e deficit neurologico focal pos-crise.
+D) Infeccao de sistema nervoso central; irritacao meningea e convulsao.
 
 
 --------------------------------------------------------------------------------
 
-38. Questão 38 (original Q5)
+38. Questao 38 (original Q5)
 
-Cefaleias são queixas frequentes no departamento de emergência e, em sua avaliação, é
+Cefaleias sao queixas frequentes no departamento de emergência e, em sua avaliacao, e
 essencial detectar os sintomas associados a causas secundárias ou a sinais de alarme.
-Considerando essa informação, julgue os próximos itens.
-I. Os sintomas sistêmicos são considerados como sinais de alarme da cefaleia.
-II. As náuseas são consideradas como sinais de alarme da cefaleia.
-III. A gravidez e o puerpério são considerados como sinais de alarme da cefaleia.
-IV. A imunossupressão é considerada como sinal de alarme da cefaleia.
-V. Uma duração maior que 24 horas é considerada como sinal de alarme da cefaleia.
+Considerando essa informacao, julgue os proximos itens.
+I. Os sintomas sistêmicos sao considerados como sinais de alarme da cefaleia.
+II. As náuseas sao consideradas como sinais de alarme da cefaleia.
+III. A gravidez e o puerperio sao considerados como sinais de alarme da cefaleia.
+IV. A imunossupressao e considerada como sinal de alarme da cefaleia.
+V. Uma duracao maior que 24 horas e considerada como sinal de alarme da cefaleia.
 Assinale a alternativa correta.
-A) Apenas os itens I, II e IV estão certos.
-B) Apenas os itens I, III e IV estão certos.
-C) Apenas os itens II, III e IV estão certos.
-D) Apenas os itens I, II, III e IV estão certos.
-E) Apenas os itens I, III, IV e V estão certos.
+A) Apenas os itens I, II e IV estao certos.
+B) Apenas os itens I, III e IV estao certos.
+C) Apenas os itens II, III e IV estao certos.
+D) Apenas os itens I, II, III e IV estao certos.
+E) Apenas os itens I, III, IV e V estao certos.
 
 
 --------------------------------------------------------------------------------
 
-39. Questão 39 (original Q16)
+39. Questao 39 (original Q16)
 
-Criança, nove anos de idade, consulta na UBS devido a queixa de cefaleia. Apresentou
-cinco crises anteriores de cefaleia, que se iniciaram há um ano. A dor é frontotemporal, às
+Crianca, nove anos de idade, consulta na UBS devido a queixa de cefaleia. Apresentou
+cinco crises anteriores de cefaleia, que se iniciaram há um ano. A dor e frontotemporal, às
 vezes unilateral, às vezes bilateral, de intensidade moderada. Nega horário preferencial e
-observa que é mais comum em situações de estresse. Relata piora da dor com atividade
-física e com barulho. Quando sente dor, usa dipirona, deita-se no quarto mais escuro e
-dorme até melhorar, o que ocorre em aproximadamente duas a três horas. Há dois dias, a
-mãe foi chamada na escola pois a criança apresentou vômito associado à cefaleia. Ela
-relatou que estava fazendo prova e, meia hora antes de sentir a dor, começou a enxergar
-pontos escuros que a dificultavam enxergar. No momento, está sem dor e o exame físico
+observa que e mais comum em situacOes de estresse. Relata piora da dor com atividade
+fisica e com barulho. Quando sente dor, usa dipirona, deita-se no quarto mais escuro e
+dorme ate melhorar, o que ocorre em aproximadamente duas a três horas. Há dois dias, a
+mae foi chamada na escola pois a crianca apresentou vômito associado à cefaleia. Ela
+relatou que estava fazendo prova e, meia hora antes de sentir a dor, comecou a enxergar
+pontos escuros que a dificultavam enxergar. No momento, está sem dor e o exame fisico
 está normal.
-Assinale a alternativa que contém a hipótese diagnóstica MAIS PROVÁVEL e a conduta
+Assinale a alternativa que contem a hipotese diagnostica MAIS PROVÁVEL e a conduta
 MAIS ADEQUADA.
 A) Cefaleia tensional. Encaminhar para realizar exame de imagem para excluir outras causas.
-B) Cefaleia tensional. Solicitar avaliação oftalmológica para excluir cefaleia por erro de refração.
+B) Cefaleia tensional. Solicitar avaliacao oftalmologica para excluir cefaleia por erro de refracao.
 C) Enxaqueca. Iniciar a profilaxia medicamentosa com topiramato ou propranolol.
-D) Enxaqueca. Orientar o uso de analgésico ou anti-inflamatório não esteroide no início da crise.
+D) Enxaqueca. Orientar o uso de analgesico ou anti-inflamatorio nao esteroide no inicio da crise.
 
 
 --------------------------------------------------------------------------------
 
-40. Questão 40 (original Q36)
+40. Questao 40 (original Q36)
 
-Uma adolescente de 14 anos procura uma unidade básica de saúde com queixa de
+Uma adolescente de 14 anos procura uma unidade básica de saude com queixa de
 cefaleia. Ela conta que, durante a prova de matemática, apresentou dificuldade para
-enxergar os enunciados; descreve que via “imagens brilhantes” e que, a seguir, a visão
-dela ficou como uma mancha escura e passou a ter dor de cabeça. Depois de 30
-minutos, a visão se normalizou. A menina tentou continuar a prova, mas a dor na lateral
-da cabeça começou a latejar e piorou. Em seguida, teve vontade de vomitar e precisou
+enxergar os enunciados; descreve que via “imagens brilhantes” e que, a seguir, a visao
+dela ficou como uma mancha escura e passou a ter dor de cabeca. Depois de 30
+minutos, a visao se normalizou. A menina tentou continuar a prova, mas a dor na lateral
+da cabeca comecou a latejar e piorou. Em seguida, teve vontade de vomitar e precisou
 sair da sala às pressas. Ela diz que nunca teve isso antes e que os sons mais fortes
-estão muito desconfortáveis. Nega o uso de anticoncepcional oral. Ao exame físico, está
-pálida, sudoréica, nauseada e com dor. Sinais vitais: PA 110 × 70 mmHg; FC 96 bpm; FR
-14 irpm; temperatura axilar 36,9 °C. Não há sinais neurológicos focais, nem sinais
-meníngeos, e o exame de fundo de olho revela pulso venoso espontâneo presente.
-Em relação ao quadro clínico apresentado, a hipótese mais provável é de cefaleia causada por:
-A) tumor cerebral, havendo indicação de exame de imagem com urgência.
-B) hemicrania com aura, havendo indicação de tratamento sintomático e acompanhamento.
-C) hemorragia subaracnóidea, havendo indicação de acionar o serviço médico de emergência.
-D) hipertensão intracraniana, havendo indicação de encaminhamento urgente para serviço de emergência.
+estao muito desconfortáveis. Nega o uso de anticoncepcional oral. Ao exame fisico, está
+pálida, sudoreica, nauseada e com dor. Sinais vitais: PA 110 × 70 mmHg; FC 96 bpm; FR
+14 irpm; temperatura axilar 36,9 °C. Nao há sinais neurologicos focais, nem sinais
+meningeos, e o exame de fundo de olho revela pulso venoso espontâneo presente.
+Em relacao ao quadro clinico apresentado, a hipotese mais provável e de cefaleia causada por:
+A) tumor cerebral, havendo indicacao de exame de imagem com urgência.
+B) hemicrania com aura, havendo indicacao de tratamento sintomático e acompanhamento.
+C) hemorragia subaracnoidea, havendo indicacao de acionar o servico medico de emergência.
+D) hipertensao intracraniana, havendo indicacao de encaminhamento urgente para servico de emergência.
 
 
 --------------------------------------------------------------------------------
