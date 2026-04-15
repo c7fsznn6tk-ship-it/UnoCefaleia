@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
@@ -10,10 +10,10 @@
   <main class="scene">
     <section class="table">
       <div class="intro">
-        <p class="eyebrow">INTERNATO - SIMULAÇÃO EM MFC</p>
-        <h1>Compre uma carta aleatória</h1>
+        <p class="eyebrow">INTERNATO - SIMULACAO EM MFC</p>
+        <h1>Compre uma carta aleatoria</h1>
         <p class="description">
-          Clique no baralho para definir quantas perguntas você tem direito.
+          Clique no baralho para definir quantas perguntas voce tem direito.
         </p>
       </div>
 
@@ -70,9 +70,42 @@
           Escolha o tempo. O cronometro comeca na proxima carta comprada.
         </p>
       </section>
+
+      <section class="quiz-panel is-hidden" id="quiz-panel" aria-live="polite">
+        <div class="quiz-dialog" id="quiz-dialog">
+          <div class="quiz-header">
+            <p class="quiz-eyebrow">Desafio da carta Pular</p>
+            <h2 class="quiz-title" id="quiz-title">Responda para ganhar a chance de jogar</h2>
+          </div>
+
+          <div class="quiz-body" id="quiz-body">
+            <p class="quiz-loading" id="quiz-loading">Carregando perguntas...</p>
+
+            <div class="quiz-question-block is-hidden" id="quiz-question-block">
+              <p class="quiz-counter" id="quiz-counter">Questao 1</p>
+              <p class="quiz-question" id="quiz-question-text"></p>
+              <div class="quiz-options" id="quiz-options"></div>
+            </div>
+
+            <div class="quiz-confirm is-hidden" id="quiz-confirm">
+              <p class="quiz-confirm-text" id="quiz-confirm-text">Voce tem certeza disso?</p>
+              <div class="quiz-confirm-actions">
+                <button class="quiz-button confirm-yes" id="quiz-confirm-yes" type="button">Sim</button>
+                <button class="quiz-button confirm-no" id="quiz-confirm-no" type="button">Nao</button>
+              </div>
+            </div>
+
+            <div class="quiz-result is-hidden" id="quiz-result">
+              <p class="quiz-result-text" id="quiz-result-text"></p>
+              <button class="quiz-button result-close" id="quiz-result-close" type="button">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </section>
     </section>
   </main>
 
+  <script src="questions-data.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

@@ -1,8 +1,8 @@
-const cards = [
+﻿const cards = [
   {
     color: "Vermelho",
     title: "Passou a vez",
-    corner: "Ø",
+    corner: "O",
     value: "",
     type: "Acao especial",
     cssClass: "red",
@@ -14,7 +14,7 @@ const cards = [
   {
     color: "Azul",
     title: "Passou a vez",
-    corner: "Ø",
+    corner: "O",
     value: "",
     type: "Acao especial",
     cssClass: "blue",
@@ -26,7 +26,7 @@ const cards = [
   {
     color: "Vermelho",
     title: "Inverter rodada",
-    corner: "↺",
+    corner: "R",
     value: "",
     type: "Acao especial",
     cssClass: "red",
@@ -38,7 +38,7 @@ const cards = [
   {
     color: "Azul",
     title: "Inverter rodada",
-    corner: "↺",
+    corner: "R",
     value: "",
     type: "Acao especial",
     cssClass: "blue",
@@ -74,7 +74,7 @@ const cards = [
   {
     color: "Vermelho/Azul",
     title: "Coringa",
-    corner: "★",
+    corner: "*",
     value: "",
     type: "Carta especial",
     cssClass: "dual",
@@ -112,6 +112,21 @@ const timerMinutesSelect = document.getElementById("timer-minutes");
 const timerDisplay = document.getElementById("timer-display");
 const timerStatus = document.getElementById("timer-status");
 const timerPanel = timerDisplay.parentElement;
+const quizPanel = document.getElementById("quiz-panel");
+const quizDialog = document.getElementById("quiz-dialog");
+const quizLoading = document.getElementById("quiz-loading");
+const quizQuestionBlock = document.getElementById("quiz-question-block");
+const quizCounter = document.getElementById("quiz-counter");
+const quizQuestionText = document.getElementById("quiz-question-text");
+const quizOptions = document.getElementById("quiz-options");
+const quizConfirm = document.getElementById("quiz-confirm");
+const quizConfirmText = document.getElementById("quiz-confirm-text");
+const quizConfirmYes = document.getElementById("quiz-confirm-yes");
+const quizConfirmNo = document.getElementById("quiz-confirm-no");
+const quizResult = document.getElementById("quiz-result");
+const quizResultText = document.getElementById("quiz-result-text");
+const quizResultClose = document.getElementById("quiz-result-close");
+
 let revealTimeout;
 let finishAnimationTimeout;
 let timerInterval;
@@ -119,6 +134,10 @@ let warningSecondSpoken = null;
 let currentTimerDuration = Number(timerMinutesSelect.value) * 60;
 let nextTimerDuration = currentTimerDuration;
 let audioContext;
+let questionsBank = [];
+let remainingQuestionIds = [];
+let pendingAnswer = null;
+let activeQuestion = null;
 
 function getRandomCard() {
   const totalWeight = cards.reduce((sum, card) => sum + card.weight, 0);
@@ -149,12 +168,6 @@ function getIconMarkup(iconName) {
         <path class="icon-fill" d="M70 16 L78 33 L59 31 Z"></path>
         <path class="icon-stroke" d="M33 74c16 9 35 4 45-10"></path>
         <path class="icon-fill" d="M30 84 L22 67 L41 69 Z"></path>
-      </svg>
-    `,
-    draw: `
-      <svg class="icon-svg" viewBox="0 0 100 100" aria-hidden="true">
-        <rect class="icon-stroke" x="23" y="28" width="34" height="42" rx="6"></rect>
-        <rect class="icon-stroke" x="43" y="34" width="34" height="42" rx="6"></rect>
       </svg>
     `,
     draw4: `
@@ -189,6 +202,210 @@ function updateCard(card) {
   cardType.textContent = card.type;
   cardMessage.textContent = `Carta sorteada: ${card.title} (${card.color})`;
   drawnCard.classList.remove("is-hidden");
+}
+
+function normalizeWhitespace(text) {
+  return text.replace(/\s+/g, " ").trim();
+}
+
+function repairMojibake(text) {
+  try {
+    let repaired = text;
+
+    for (let attempt = 0; attempt < 3; attempt += 1) {
+      if (!/[ÃÂâ€™€œ]/.test(repaired)) {
+        break;
+      }
+
+      const bytes = Uint8Array.from(repaired, (character) => character.charCodeAt(0) & 255);
+      repaired = new TextDecoder("utf-8").decode(bytes);
+    }
+
+    return repaired;
+  } catch {
+    return text;
+  }
+}
+
+function parseQuestions(rawText) {
+  const normalizedText = rawText.replace(/\r\n/g, "\n");
+  const [questionsSection = "", answerSection = ""] = normalizedText.split(/\nGABARITO\n/);
+  const answerMap = new Map(
+    [...answerSection.matchAll(/(\d+)\.\s*([A-E])/g)].map((match) => [Number(match[1]), match[2]])
+  );
+  const questionBlocks = questionsSection
+    .split(/\n-+\n/g)
+    .map((block) => block.trim())
+    .filter((block) => /^\d+\.\s+Quest/i.test(block));
+
+  return questionBlocks
+    .map((block) => {
+      const lines = block.split("\n").map((line) => line.trim()).filter(Boolean);
+      const header = lines.shift();
+      const numberMatch = header.match(/^(\d+)\./);
+
+      if (!numberMatch) {
+        return null;
+      }
+
+      const id = Number(numberMatch[1]);
+      const promptParts = [];
+      const options = [];
+      let currentOption = null;
+
+      for (const line of lines) {
+        const optionMatch = line.match(/^([A-E])\)\s*(.*)$/);
+
+        if (optionMatch) {
+          if (currentOption) {
+            options.push(currentOption);
+          }
+
+          currentOption = {
+            letter: optionMatch[1],
+            text: optionMatch[2].trim()
+          };
+          continue;
+        }
+
+        if (currentOption) {
+          currentOption.text = `${currentOption.text} ${line}`.trim();
+        } else {
+          promptParts.push(line);
+        }
+      }
+
+      if (currentOption) {
+        options.push(currentOption);
+      }
+
+      return {
+        id,
+        prompt: normalizeWhitespace(promptParts.join(" ")),
+        options: options.map((option) => ({
+          letter: option.letter,
+          text: normalizeWhitespace(option.text)
+        })),
+        correct: answerMap.get(id)
+      };
+    })
+    .filter((question) => question && question.options.length >= 2 && question.correct);
+}
+
+function initializeQuestions() {
+  if (typeof QUESTIONS_RAW !== "string") {
+    quizLoading.textContent = "Nao foi possivel carregar as perguntas.";
+    return;
+  }
+
+  questionsBank = parseQuestions(repairMojibake(QUESTIONS_RAW));
+  remainingQuestionIds = questionsBank.map((question) => question.id);
+
+  if (!questionsBank.length) {
+    quizLoading.textContent = "Nao foi possivel preparar as perguntas.";
+    return;
+  }
+
+  quizLoading.textContent = `${questionsBank.length} perguntas prontas para o desafio.`;
+}
+
+function hideQuizSections() {
+  quizQuestionBlock.classList.add("is-hidden");
+  quizConfirm.classList.add("is-hidden");
+  quizResult.classList.add("is-hidden");
+}
+
+function resetQuizFeedback() {
+  quizDialog.classList.remove("is-success", "is-error");
+  quizResult.classList.remove("is-success", "is-error");
+}
+
+function closeQuizPanel() {
+  pendingAnswer = null;
+  activeQuestion = null;
+  resetQuizFeedback();
+  quizPanel.classList.add("is-hidden");
+  hideQuizSections();
+}
+
+function getRandomQuestion() {
+  if (!remainingQuestionIds.length) {
+    remainingQuestionIds = questionsBank.map((question) => question.id);
+  }
+
+  const randomIndex = Math.floor(Math.random() * remainingQuestionIds.length);
+  const [questionId] = remainingQuestionIds.splice(randomIndex, 1);
+  return questionsBank.find((question) => question.id === questionId) || questionsBank[0];
+}
+
+function renderQuestion(question) {
+  activeQuestion = question;
+  pendingAnswer = null;
+  quizPanel.classList.remove("is-hidden");
+  hideQuizSections();
+  resetQuizFeedback();
+  quizQuestionBlock.classList.remove("is-hidden");
+  quizLoading.classList.add("is-hidden");
+  quizCounter.textContent = `Questao ${question.id} de 40`;
+  quizQuestionText.textContent = question.prompt;
+  quizOptions.innerHTML = "";
+
+  question.options.forEach((option) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "quiz-option";
+    button.dataset.letter = option.letter;
+    button.innerHTML = `<strong>${option.letter})</strong> ${option.text}`;
+    button.addEventListener("click", () => {
+      pendingAnswer = option.letter;
+      [...quizOptions.children].forEach((item) => item.classList.remove("selected"));
+      button.classList.add("selected");
+      quizConfirmText.textContent = `Voce tem certeza disso? Resposta marcada: ${option.letter}.`;
+      quizConfirm.classList.remove("is-hidden");
+    });
+    quizOptions.appendChild(button);
+  });
+}
+
+function showQuizResult(isCorrect) {
+  quizConfirm.classList.add("is-hidden");
+  quizResult.classList.remove("is-hidden");
+  quizResult.classList.toggle("is-success", isCorrect);
+  quizResult.classList.toggle("is-error", !isCorrect);
+  quizDialog.classList.remove("is-success", "is-error");
+  void quizDialog.offsetWidth;
+  quizDialog.classList.add(isCorrect ? "is-success" : "is-error");
+
+  if (isCorrect) {
+    quizQuestionBlock.classList.add("is-hidden");
+    quizResultText.textContent = "Parabens! Resposta correta. Voce ganhou a chance de jogar.";
+    return;
+  }
+
+  [...quizOptions.children].forEach((button) => {
+    const isSelected = button.dataset.letter === pendingAnswer;
+    const isAnswer = button.dataset.letter === activeQuestion.correct;
+
+    button.disabled = true;
+    button.classList.remove("selected");
+    button.classList.toggle("is-wrong", isSelected && !isAnswer);
+    button.classList.toggle("is-correct", isAnswer);
+  });
+
+  quizResultText.textContent = `Resposta incorreta. A alternativa correta e ${activeQuestion.correct}.`;
+}
+
+function openSkipChallenge() {
+  if (!questionsBank.length) {
+    quizPanel.classList.remove("is-hidden");
+    hideQuizSections();
+    resetQuizFeedback();
+    quizLoading.classList.remove("is-hidden");
+    quizLoading.textContent = "As perguntas ainda nao estao disponiveis.";
+    return;
+  }
+
+  renderQuestion(getRandomQuestion());
 }
 
 function formatTime(totalSeconds) {
@@ -309,6 +526,7 @@ function animateDraw(card) {
   drawnCard.classList.remove("is-hidden");
   drawnCard.classList.remove("is-animating");
   ensureAudioContext();
+  closeQuizPanel();
 
   clearTimeout(revealTimeout);
   clearTimeout(finishAnimationTimeout);
@@ -324,6 +542,15 @@ function animateDraw(card) {
     drawnCard.classList.remove("is-animating");
     drawButton.disabled = false;
   }, 900);
+
+  if (card.icon === "skip") {
+    stopTimer();
+    currentTimerDuration = nextTimerDuration;
+    updateTimerVisual(nextTimerDuration, "idle");
+    timerStatus.textContent = "Carta Pular sorteada. Responda a pergunta para ganhar a chance de jogar.";
+    window.setTimeout(openSkipChallenge, 360);
+    return;
+  }
 
   if (card.startsTimer) {
     startTimer();
@@ -344,10 +571,30 @@ timerMinutesSelect.addEventListener("change", () => {
     resetTimerPreview();
     return;
   }
+
   timerStatus.textContent = `Novo tempo salvo: ${timerMinutesSelect.value} minuto(s). Ele sera usado na proxima carta comprada.`;
 });
 
 resetTimerPreview();
+initializeQuestions();
+
+quizConfirmYes.addEventListener("click", () => {
+  if (!activeQuestion || !pendingAnswer) {
+    return;
+  }
+
+  showQuizResult(pendingAnswer === activeQuestion.correct);
+});
+
+quizConfirmNo.addEventListener("click", () => {
+  pendingAnswer = null;
+  quizConfirm.classList.add("is-hidden");
+  [...quizOptions.children].forEach((item) => item.classList.remove("selected"));
+});
+
+quizResultClose.addEventListener("click", () => {
+  closeQuizPanel();
+});
 
 drawButton.addEventListener("click", () => {
   const card = getRandomCard();
