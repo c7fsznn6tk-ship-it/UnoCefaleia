@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compra de Carta Estilo UNO</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="scene">
+    <section class="table">
+      <div class="intro">
+        <p class="eyebrow">Mini cenário</p>
+        <h1>Compre uma carta aleatória</h1>
+        <p class="description">
+          Clique no baralho para revelar uma carta inspirada no estilo UNO.
+        </p>
+      </div>
+
+      <div class="play-area">
+        <button class="deck" id="draw-button" type="button" aria-label="Comprar uma carta do baralho">
+          <span class="deck-stack deck-stack-one"></span>
+          <span class="deck-stack deck-stack-two"></span>
+          <span class="deck-face">
+            <span class="deck-title">UNO</span>
+            <span class="deck-subtitle">Somente cartas especiais</span>
+          </span>
+        </button>
+
+        <article class="card-display is-hidden" id="drawn-card" aria-live="polite">
+          <div class="card-flip" id="card-flip">
+            <div class="card-shell card-back">
+              <div class="card-back-mark">UNO</div>
+              <div class="card-back-ring"></div>
+              <div class="card-back-stripe"></div>
+            </div>
+
+            <div class="card-shell card-front" id="card-shell">
+              <span class="card-label" id="card-color">Cor</span>
+              <span class="corner-value corner-top" id="card-corner-top">0</span>
+
+              <div class="card-centerpiece">
+                <div class="card-orbit"></div>
+                <div class="card-core">
+                  <div class="card-icon-art" id="card-icon-art" aria-hidden="true"></div>
+                  <strong class="card-value" id="card-value">0</strong>
+                </div>
+              </div>
+
+              <span class="corner-value corner-bottom" id="card-corner-bottom">0</span>
+              <span class="card-type" id="card-type">Carta especial</span>
+            </div>
+          </div>
+          <p class="card-message" id="card-message">Nenhuma carta comprada ainda.</p>
+        </article>
+      </div>
+
+      <section class="timer-panel" aria-live="polite">
+        <label class="timer-label" for="timer-minutes">Tempo da rodada</label>
+        <select class="timer-select" id="timer-minutes">
+          <option value="1">1 minuto</option>
+          <option value="2" selected>2 minutos</option>
+          <option value="3">3 minutos</option>
+          <option value="5">5 minutos</option>
+          <option value="10">10 minutos</option>
+        </select>
+
+        <div class="timer-display" id="timer-display">02:00</div>
+        <p class="timer-status" id="timer-status">
+          Escolha o tempo. O cronometro comeca na proxima carta comprada.
+        </p>
+      </section>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
